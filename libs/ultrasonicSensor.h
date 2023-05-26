@@ -10,6 +10,7 @@ private:
     byte m_echo_pin;
 public:
     UltrasonicSensor(byte trig_pin,byte echo_pin);
+    void init();
 };
 
 #endif //ULTRASONISENSOR_H
