@@ -21,3 +21,11 @@ unsigned int UltrasonicSensor::distanceMeasurementCM()
     duration = pulseIn(m_echo_pin , HIGH);
     return duration/58;
 }
+bool UltrasonicSensor::objectDetectionCM(unsigned int distance)
+{
+    if(distanceMeasurementCM()<=distance){
+        return true;
+    }else{
+        return false;
+    }
+}
