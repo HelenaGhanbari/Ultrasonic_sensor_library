@@ -11,6 +11,7 @@ private:
 public:
     UltrasonicSensor(byte trig_pin,byte echo_pin);
     void init();
+    unsigned int distanceMeasurementCM();
 };
 
 #endif //ULTRASONISENSOR_H

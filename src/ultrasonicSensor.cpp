@@ -10,3 +10,14 @@ void UltrasonicSensor::init()
     pinMode(m_trig_pin, OUTPUT);
     pinMode(m_echo_pin, INPUT);
 }
+unsigned int UltrasonicSensor::distanceMeasurementCM()
+{
+    digitalWrite(m_trig_pin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(m_trig_pin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(m_trig_pin, LOW);
+    unsigned int duration;
+    duration = pulseIn(m_echo_pin , HIGH);
+    return duration/58;
+}
