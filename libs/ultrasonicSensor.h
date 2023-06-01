@@ -12,7 +12,7 @@ public:
     UltrasonicSensor(byte trig_pin,byte echo_pin);
     void init();
     unsigned int distanceMeasurementCM();
-    bool objectDetectionCM(unsigned int distance{20});
+    bool objectDetectionCM(unsigned int distance = 20 );
 };
 
 #endif //ULTRASONISENSOR_H
