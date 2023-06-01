@@ -1,4 +1,4 @@
-#include ".\..\libs\ultrasonicSensor.h"
+#include ".\..\libs\ultrasonicsensor.h"
 
 UltrasonicSensor::UltrasonicSensor(byte trig_pin,byte echo_pin)
 {
