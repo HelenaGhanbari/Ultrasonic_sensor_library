@@ -108,12 +108,12 @@ This method uses the `distanceMeasurementCM` method. It compare the distance for
 At first you should include the library which is in the libs directory.
 
 ```ino
-#include ".\libs\ultrasonicSensor
+#include ".\libs\ultrasonicsensor
 ```
 note : you should keep in mind your directory that where is it and then you can include the library for example if you are in the main directory and the libs directory it's not in the main directory you should write this in including:
 
 ```ino
-#include ".\..\libs\ultrasonicSensor
+#include ".\..\libs\ultrasonicsensor
 ```
 
 Now the program knows the `UltrasoniSensor` class and you can make an object of it.
