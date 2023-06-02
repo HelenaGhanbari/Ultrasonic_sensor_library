@@ -3,7 +3,7 @@
 #define TRIG_PIN 2
 #define ECHO_PIN 3
 
-#define BOUDRATE 9600
+#define BOUDRATE 115200
 UltrasonicSensor ultrasonic_sensor(TRIG_PIN,ECHO_PIN);
 
 const int distance_for_object_detection {30};
