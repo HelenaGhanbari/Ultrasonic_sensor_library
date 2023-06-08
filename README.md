@@ -2,6 +2,21 @@
 
 This library is written to use HC-SR04 ultrasonic sensor.   
 
+# Wiring
+
+For using this ultrasonic sensor these are the pins connection :
+
+| pins of HC-SR04 |   connections to arduino        |
+|    :-------:    |       :--------:                |      
+|  VCC            | 5V                              | 
+|  TRIG           | one of the digital pins  e.g. 9 | 
+|  ECHO           | one of the digital pins e.g. 10 | 
+|  GND            |GND                              | 
+
+[![wiring of HC-SR04](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Arduino-Wiring-Fritzing-Normal-Mode-Connections-with-HC-SR04-Ultrasonic-Sensor.png)](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)
+
+
+
 # How its work ?
 To start with I'm going to explain the class and its methods.
 
