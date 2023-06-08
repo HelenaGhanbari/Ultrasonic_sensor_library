@@ -16,6 +16,19 @@ For using this ultrasonic sensor these are the pins connection :
 [![wiring of HC-SR04](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Arduino-Wiring-Fritzing-Normal-Mode-Connections-with-HC-SR04-Ultrasonic-Sensor.png)](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)
 
 
+# Installation
+
+To start with you should click on code (local part). For cloning the project you can do it in different ways. One of those ways is with the https protocol.
+
+with HTTPS protocol, cloning the project look like this :
+
+[![cloning part](https://docs.github.com/assets/cb-88716/images/help/repository/https-url-clone-cli.png)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+As you see you should copy the link. For installing this library with the shell that has git like `git bash` do the following :
+
+```bash
+git clone https://github.com/HelenaGhanbari/Ultrasonic_sensor_library.git
+```
 
 # How its work ?
 To start with I'm going to explain the class and its methods.
